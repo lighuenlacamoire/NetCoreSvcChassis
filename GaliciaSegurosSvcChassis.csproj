@@ -2,11 +2,11 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<PackageVersion>1.0</PackageVersion>
-		<Version>1.0.0</Version>
+		<PackageVersion>1.0.1</PackageVersion>
+		<Version>1.0.1</Version>
 		<PackageId>GaliciaSegurosSvcChassis.NetCore</PackageId>
 		<IsPackable>true</IsPackable>
-		<Title>API Galicia Seguros Template</Title>
+		<Title>Galicia Seguros Service Chassis</Title>
 		<Authors>Banco Galicia</Authors>
 		<Description>Manejador de dependencias para los microservicios de Galicia Seguros</Description>
 		<PackageTags>dotnet-new;templates;contoso</PackageTags>

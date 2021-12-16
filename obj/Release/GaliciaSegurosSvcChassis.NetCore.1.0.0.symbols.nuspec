@@ -3,7 +3,7 @@
   <metadata>
     <id>GaliciaSegurosSvcChassis.NetCore</id>
     <version>1.0.0</version>
-    <title>API Galicia Seguros Template</title>
+    <title>Galicia Seguros Service Chassis</title>
     <authors>Banco Galicia</authors>
     <description>Manejador de dependencias para los microservicios de Galicia Seguros</description>
     <copyright>Copyright © 2022</copyright>
