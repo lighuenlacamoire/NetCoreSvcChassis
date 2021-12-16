@@ -13,6 +13,7 @@
       <group targetFramework="net6.0">
         <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" version="1.14.0" exclude="Build,Analyzers" />
+        <dependency id="NLog.Extensions.Logging" version="1.7.4" exclude="Build,Analyzers" />
         <dependency id="Swashbuckle.AspNetCore" version="6.2.3" exclude="Build,Analyzers" />
         <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.2.3" exclude="Build,Analyzers" />
       </group>
@@ -23,4 +24,7 @@
       </group>
     </frameworkReferences>
   </metadata>
+  <files>
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\bin\Release\net6.0\GaliciaSegurosSvcChassis.pdb" target="lib\net6.0\GaliciaSegurosSvcChassis.pdb" />
+  </files>
 </package>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.OpenApi.Models;
 using System.Text.RegularExpressions;
 
-namespace GaliciaSegurosSvcChassis
+namespace GaliciaSegurosSvcChassis.Configuration
 {
     /// <summary>
     /// Configura los CCC

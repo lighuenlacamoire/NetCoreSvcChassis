@@ -22,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/lighuenlacamoire/index.json": {}
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\bin\\Release\\GaliciaSegurosSvcChassis.NetCore.1.0.1.nupkg": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -48,6 +48,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

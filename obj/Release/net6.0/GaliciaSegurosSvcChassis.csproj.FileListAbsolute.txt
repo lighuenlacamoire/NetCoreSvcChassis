@@ -26,3 +26,5 @@ D:\GIT\OWNER\NetCoreSvcChassis\obj\Release\net6.0\GaliciaSegurosSvcChassis.dll
 D:\GIT\OWNER\NetCoreSvcChassis\obj\Release\net6.0\ref\GaliciaSegurosSvcChassis.dll
 D:\GIT\OWNER\NetCoreSvcChassis\obj\Release\net6.0\GaliciaSegurosSvcChassis.pdb
 D:\GIT\OWNER\NetCoreSvcChassis\obj\Release\net6.0\GaliciaSegurosSvcChassis.genruntimeconfig.cache
+D:\GIT\OWNER\NetCoreSvcChassis\bin\Release\net6.0\NLog.dll
+D:\GIT\OWNER\NetCoreSvcChassis\bin\Release\net6.0\NLog.Extensions.Logging.dll
