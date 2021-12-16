@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<PackageVersion>1.0.1</PackageVersion>
-		<Version>1.0.1</Version>
+		<PackageVersion>1.0.3</PackageVersion>
+		<Version>1.0.3</Version>
 		<PackageId>GaliciaSegurosSvcChassis.NetCore</PackageId>
 		<IsPackable>true</IsPackable>
 		<Title>Galicia Seguros Service Chassis</Title>
@@ -24,6 +24,7 @@
 		<ContentTargetFolders>content</ContentTargetFolders>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>

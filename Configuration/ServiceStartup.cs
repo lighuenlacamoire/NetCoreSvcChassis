@@ -27,7 +27,6 @@ namespace GaliciaSegurosSvcChassis.Configuration
         /// </summary>
         public void ConfigureServiceCollection(IServiceCollection services)
         {
-
             #region Swagger
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
@@ -70,7 +69,7 @@ namespace GaliciaSegurosSvcChassis.Configuration
         /// <summary>
         /// Configura la aplicacion
         /// </summary>
-        public void ConfigureApplication(IApplicationBuilder app, IServiceProvider serviceProvider)
+        public void ConfigureApplication(IApplicationBuilder app)
         {
             #region Swagger
             app.UseSwagger();

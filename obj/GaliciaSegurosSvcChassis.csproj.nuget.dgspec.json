@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSegurosSvcChassis.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.3",
       "restore": {
         "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSegurosSvcChassis.csproj",
         "projectName": "GaliciaSegurosSvcChassis.NetCore",
@@ -22,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\bin\\Release\\GaliciaSegurosSvcChassis.NetCore.1.0.1.nupkg": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/lighuenlacamoire/index.json": {}
         },
         "frameworks": {
           "net6.0": {
