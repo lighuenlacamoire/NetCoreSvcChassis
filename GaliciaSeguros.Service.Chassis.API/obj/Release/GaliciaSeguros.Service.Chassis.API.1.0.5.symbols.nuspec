@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GaliciaSeguros.Service.Chassis.API</id>
+    <version>1.0.5</version>
+    <title>Galicia Seguros Service Chassis</title>
+    <authors>Galicia Seguros</authors>
+    <description>Manejador de dependencias para los microservicios de Galicia Seguros</description>
+    <copyright>Copyright © 2022</copyright>
+    <tags>dotnet-new templates contoso</tags>
+    <repository type="git" url="https://github.com/lighuenlacamoire/NetCoreSvcChassis" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" version="1.14.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.14.1" exclude="Build,Analyzers" />
+        <dependency id="NLog.Extensions.Logging" version="1.7.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.2.3" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\GaliciaSeguros.Service.Chassis.API\bin\Release\net6.0\GaliciaSeguros.Service.Chassis.API.pdb" target="lib\net6.0\GaliciaSeguros.Service.Chassis.API.pdb" />
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\GaliciaSeguros.Service.Chassis.Storage\bin\Release\net6.0\GaliciaSeguros.Service.Chassis.Storage.pdb" target="lib\net6.0\GaliciaSeguros.Service.Chassis.Storage.pdb" />
+  </files>
+</package>

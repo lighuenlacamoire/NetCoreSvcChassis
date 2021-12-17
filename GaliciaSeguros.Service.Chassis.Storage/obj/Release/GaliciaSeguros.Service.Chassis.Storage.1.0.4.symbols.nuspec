@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GaliciaSeguros.Service.Chassis.Storage</id>
+    <version>1.0.4</version>
+    <authors>GaliciaSeguros.Service.Chassis.Storage</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.14.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\GaliciaSeguros.Service.Chassis.Storage\bin\Release\net6.0\GaliciaSeguros.Service.Chassis.Storage.pdb" target="lib\net6.0\GaliciaSeguros.Service.Chassis.Storage.pdb" />
+  </files>
+</package>

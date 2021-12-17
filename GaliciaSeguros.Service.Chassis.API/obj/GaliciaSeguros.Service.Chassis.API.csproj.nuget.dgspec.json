@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.API\\GaliciaSeguros.Service.Chassis.API.csproj": {}
+  },
+  "projects": {
+    "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.API\\GaliciaSeguros.Service.Chassis.API.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.API\\GaliciaSeguros.Service.Chassis.API.csproj",
+        "projectName": "GaliciaSeguros.Service.Chassis.API",
+        "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.API\\GaliciaSeguros.Service.Chassis.API.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/lighuenlacamoire/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\GaliciaSeguros.Service.Chassis.Storage.csproj": {
+                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\GaliciaSeguros.Service.Chassis.Storage.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\GaliciaSeguros.Service.Chassis.Storage.csproj": {
+      "version": "1.0.4",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\GaliciaSeguros.Service.Chassis.Storage.csproj",
+        "projectName": "GaliciaSeguros.Service.Chassis.Storage",
+        "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\GaliciaSeguros.Service.Chassis.Storage.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\GaliciaSeguros.Service.Chassis.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/lighuenlacamoire/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

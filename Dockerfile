@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["GaliciaSegurosSvcChassis.csproj", "."]
-RUN dotnet restore "./GaliciaSegurosSvcChassis.csproj"
+COPY ["GaliciaSeguros.Service.Chassis.csproj", "."]
+RUN dotnet restore "./GaliciaSeguros.Service.Chassis.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "GaliciaSegurosSvcChassis.csproj" -c Release -o /app/build
+RUN dotnet build "GaliciaSeguros.Service.Chassis.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "GaliciaSegurosSvcChassis.csproj" -c Release -o /app/publish
+RUN dotnet publish "GaliciaSeguros.Service.Chassis.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "GaliciaSegurosSvcChassis.dll"]
+ENTRYPOINT ["dotnet", "GaliciaSeguros.Service.Chassis.dll"]
