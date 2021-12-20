@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mfj+MRJOGG3juJ5b/pl0IAM3QCm1GX+H4h1iCEBO+xrmmzDu1Q18/WWUbGqbykSENu6xx70XD5e5zYq6H12A+Q==",
+  "dgSpecHash": "FYZV0Xt7DS3Org8L5FrSs61NHfK3Ar40207S82+aJDIey2u3ZdisFCK2H8CWrt2io6JQtBcaIDFw4zujnZfBMQ==",
   "success": true,
   "projectFilePath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj",
   "expectedPackageFiles": [

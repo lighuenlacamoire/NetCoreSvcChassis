@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\GaliciaSeguros.IaaS.Service.Chassis.API.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\GaliciaSeguros.IaaS.Service.Chassis.API.csproj",
         "projectName": "GaliciaSeguros.IaaS.Service.Chassis",
@@ -30,13 +30,16 @@
             "targetAlias": "net6.0",
             "projectReferences": {
               "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj": {
-                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj"
+                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj",
+                "privateAssets": "all"
               },
               "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj": {
-                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj"
+                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj",
+                "privateAssets": "all"
               },
               "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Swagger\\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj": {
-                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Swagger\\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj"
+                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Swagger\\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj",
+                "privateAssets": "all"
               }
             }
           }
@@ -112,7 +115,8 @@
             "targetAlias": "net6.0",
             "projectReferences": {
               "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj": {
-                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj"
+                "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj",
+                "privateAssets": "all"
               }
             }
           }

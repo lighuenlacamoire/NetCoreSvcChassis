@@ -2,7 +2,6 @@ D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\b
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\bin\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.pdb
-D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj.AssemblyReference.cache
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.GeneratedMSBuildEditorConfig.editorconfig
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.AssemblyInfoInputs.cache
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\o
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj.AssemblyReference.cache

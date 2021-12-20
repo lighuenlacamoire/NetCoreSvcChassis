@@ -2,7 +2,6 @@ D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\b
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\bin\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.pdb
-D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj.AssemblyReference.cache
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.GeneratedMSBuildEditorConfig.editorconfig
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.AssemblyInfoInputs.cache
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\o
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj.AssemblyReference.cache

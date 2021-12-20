@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<PackageVersion>1.0.0</PackageVersion>
-		<Version>1.0.0</Version>
+		<PackageVersion>1.0.1</PackageVersion>
+		<Version>1.0.1</Version>
 		<PackageId>GaliciaSeguros.IaaS.Service.Chassis</PackageId>
 		<IsPackable>true</IsPackable>
 		<Title>Galicia Seguros Service Chassis</Title>
@@ -36,9 +36,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj" />
-		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Storage\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj" />
-		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Swagger\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj" />
+		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj" PrivateAssets="All" />
+		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Storage\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj" PrivateAssets="All" />
+		<ProjectReference Include="..\GaliciaSeguros.IaaS.Service.Chassis.Swagger\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj" PrivateAssets="All" />
 	</ItemGroup>
 
 	<Target Name="CopyProjectReferencesToPackage" DependsOnTargets="BuildOnlySettings;ResolveReferences">

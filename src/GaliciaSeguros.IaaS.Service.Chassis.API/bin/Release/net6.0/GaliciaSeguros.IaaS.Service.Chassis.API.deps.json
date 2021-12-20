@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.0": {
+      "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.1": {
         "dependencies": {
           "GaliciaSeguros.IaaS.Service.Chassis.Storage": "1.0.0",
           "GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo": "1.0.0",
@@ -293,7 +293,6 @@
       },
       "GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo/1.0.0": {
         "dependencies": {
-          "GaliciaSeguros.IaaS.Service.Chassis.Storage": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "MongoDB.Driver": "2.14.1",
           "Newtonsoft.Json": "13.0.1"
@@ -310,7 +309,7 @@
     }
   },
   "libraries": {
-    "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.0": {
+    "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -945,7 +945,8 @@
           "targetAlias": "net6.0",
           "projectReferences": {
             "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj": {
-              "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj"
+              "projectPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj",
+              "privateAssets": "all"
             }
           }
         }
