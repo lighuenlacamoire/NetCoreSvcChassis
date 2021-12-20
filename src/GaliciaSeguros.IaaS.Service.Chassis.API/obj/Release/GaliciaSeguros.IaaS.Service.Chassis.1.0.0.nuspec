@@ -26,6 +26,8 @@
     </frameworkReferences>
   </metadata>
   <files>
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.runtimeconfig.json" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.runtimeconfig.json" />
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.dll" />
     <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\appsettings.Development.json" target="content\appsettings.Development.json" />
     <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\appsettings.json" target="content\appsettings.json" />
   </files>
