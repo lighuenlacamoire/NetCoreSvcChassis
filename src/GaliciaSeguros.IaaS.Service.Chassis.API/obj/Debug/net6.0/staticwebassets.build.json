@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5CiUCp4jVi4L5dzenePNVL7PipRdDxD2nShOuRraBYY=",
+  "Source": "GaliciaSeguros.IaaS.Service.Chassis",
+  "BasePath": "_content/GaliciaSeguros.IaaS.Service.Chassis",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

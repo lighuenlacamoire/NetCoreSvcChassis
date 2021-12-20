@@ -1,0 +1,15 @@
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.deps.json
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj.AssemblyReference.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.AssemblyInfoInputs.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.AssemblyInfo.cs
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj.CoreCompileInputs.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.csproj.CopyComplete
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\obj\Debug\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.pdb
