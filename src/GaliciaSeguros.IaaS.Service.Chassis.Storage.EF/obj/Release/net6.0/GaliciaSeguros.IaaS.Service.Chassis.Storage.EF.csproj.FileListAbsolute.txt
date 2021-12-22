@@ -1,0 +1,15 @@
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.deps.json
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.AssemblyInfoInputs.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.AssemblyInfo.cs
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.csproj.CoreCompileInputs.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.pdb
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.csproj.AssemblyReference.cache
+D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.csproj.CopyComplete

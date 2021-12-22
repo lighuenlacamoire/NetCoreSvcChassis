@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "fJQu3t5Gv9BaLCB6FB4lRY/O8UzW/tiLHiwEz8Ts2tEhJWqDqvlZ58UkLMtMrjxHDDAYAE2N2Y9RmgsQISxrxQ==",
+  "dgSpecHash": "gqkBGTVneTEgwiBu8Pr1eutJY3hsU8AxGxW7Av2413xshWbMMory68EtQFBbsD10OJuqNvXROmPtteDFHCKh3g==",
   "success": true,
   "projectFilePath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Swagger\\GaliciaSeguros.IaaS.Service.Chassis.Swagger.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.2.3\\swashbuckle.aspnetcore.annotations.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

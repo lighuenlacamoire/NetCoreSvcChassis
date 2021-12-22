@@ -1,12 +1,7 @@
 ﻿using GaliciaSeguros.IaaS.Service.Chassis.Storage.Contracts;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.Implementation
+namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.Implementation
 {
     public interface IStorageStartup
     {

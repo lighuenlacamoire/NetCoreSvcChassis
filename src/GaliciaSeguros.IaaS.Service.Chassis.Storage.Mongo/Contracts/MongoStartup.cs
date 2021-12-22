@@ -1,4 +1,5 @@
 ﻿using GaliciaSeguros.IaaS.Service.Chassis.Storage.Contracts;
+using GaliciaSeguros.IaaS.Service.Chassis.Storage.Implementation;
 using GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.Implementation;
 using Microsoft.Extensions.DependencyInjection;
 using System;

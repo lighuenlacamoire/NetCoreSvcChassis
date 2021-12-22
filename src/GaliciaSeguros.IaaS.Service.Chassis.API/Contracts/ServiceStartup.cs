@@ -8,6 +8,7 @@ using GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.Implementation;
 using GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.Contracts;
 using GaliciaSeguros.IaaS.Service.Chassis.Storage.Contracts;
 using GaliciaSeguros.IaaS.Service.Chassis.Swagger;
+using GaliciaSeguros.IaaS.Service.Chassis.Storage.Implementation;
 
 namespace GaliciaSeguros.IaaS.Service.Chassis.API.Contracts
 {
@@ -43,48 +44,6 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.API.Contracts
         public void ConfigureServiceCollection(IServiceCollection services)
         {
             #region Swagger
-            var swaggerSettings = GetSwaggerSettings(services, configuration);
-            if (swaggerSettings != null)
-            {
-                this.serviceName = swaggerSettings.serviceName;
-                this.serviceDescription = swaggerSettings.serviceDescription;
-                this.serviceVersion = swaggerSettings.serviceVersion;
-
-                services.AddEndpointsApiExplorer();
-                services.AddSwaggerGen(options =>
-                {
-                    options.SwaggerDoc("v1",
-                        new OpenApiInfo
-                        {
-                            Title = swaggerSettings.serviceName,
-                            Description = swaggerSettings.serviceDescription,
-                            Version = swaggerSettings.serviceVersion,
-                            Contact = new OpenApiContact
-                            {
-                                Name = "Galicia Seguros",
-                                Email = string.Empty,
-                                Url = new Uri("https://x.com"),
-                            },
-                        });
-                    options.EnableAnnotations();
-                    options.CustomSchemaIds(type => Regex.Replace(type.ToString(), @"[^a-zA-Z0-9._-]+", ""));
-                    // XML Documentation
-                    try
-                    {
-                        var xmlFile = "ServiceDocumentation.xml";
-                        // var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                        // var xmlPath = Path.Combine(webHostEnvironment.ContentRootPath, xmlFile);
-                        if (File.Exists(xmlPath))
-                            options.IncludeXmlComments(xmlPath);
-
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
-                });
-            }
             #endregion
 
             #region Base de Datos: Mongo
@@ -101,36 +60,9 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.API.Contracts
         public void ConfigureApplication(IApplicationBuilder app, IServiceProvider serviceProvider)
         {
             #region Swagger
-            app.UseSwagger();
-            app.UseSwaggerUI(options =>
-            {
-                options.SwaggerEndpoint(swaggerPrefix == string.Empty
-                                ? "/swagger/v1/swagger.json"
-                                : $"/{swaggerPrefix}/swagger/v1/swagger.json", $"{serviceName} {serviceVersion}");
-            });
             #endregion
         }
-        /// <summary>
-        /// Obtiene la configuracion para Swagger
-        /// </summary>
-        /// <param name="serviceCollection"></param>
-        /// <param name="configuration"></param>
-        /// <returns></returns>
-        private static SwaggerSettings GetSwaggerSettings(IServiceCollection serviceCollection, IConfiguration configuration)
-        {
-            try
-            {
-                serviceCollection.Configure<SwaggerSettings>(configuration.GetSection("SwaggerSettings"));
-
-                var storageSettings = serviceCollection.BuildServiceProvider().GetService<IOptions<SwaggerSettings>>();
-                return storageSettings.Value;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return null;
-            }
-        }
+        
         /// <summary>
         /// Obtiene la configuracion para base de datos
         /// </summary>
