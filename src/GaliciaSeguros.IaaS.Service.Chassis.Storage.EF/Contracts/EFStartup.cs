@@ -15,9 +15,9 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
         where TDbContext : DbContext
         where TModelBuilderConfiguration : class, IModelBuilderConfiguration
     {
-        private readonly IList<(Type DomainType, Type StorageType)> mappings;
+        private readonly IList<(Type IRepoType, Type RepoType)> mappings;
 
-        public EFStartup(IList<(Type DomainType, Type StorageType)> mappings)
+        public EFStartup(IList<(Type IRepoType, Type RepoType)> mappings)
         {
             this.mappings = mappings;
         }
@@ -30,20 +30,13 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
             #endregion
             services.AddSingleton(storageSettings);
 
-            foreach (var (domainType, storageType) in mappings)
-            {
-                Type repoInterfaceType = typeof(IRepository<>);
-                Type repoConcreteType = typeof(BaseRepository<>);
-
-                Type constructedRepoInterfaceType = repoInterfaceType.MakeGenericType(domainType);
-                Type constructedRepoConcreteType = repoConcreteType.MakeGenericType(domainType, storageType);
-
-                services.AddTransient(constructedRepoInterfaceType, constructedRepoConcreteType);
-            }
-
             #region DbContext
             services.AddScoped<DbContext, TDbContext>();
             services.AddTransient<IModelBuilderConfiguration, TModelBuilderConfiguration>();
+            services.AddDbContext<TDbContext>(options =>
+            {
+                options.UseSqlServer(storageSettings.ConnectionString);
+            });
             #endregion
         }
     }

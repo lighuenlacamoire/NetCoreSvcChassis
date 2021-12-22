@@ -2544,7 +2544,7 @@
     "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.4",
+    "version": "1.0.8",
     "restore": {
       "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\GaliciaSeguros.IaaS.Service.Chassis.API.csproj",
       "projectName": "GaliciaSeguros.IaaS.Service.Chassis",

@@ -8,7 +8,7 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Implementation
 {
     public interface IEFUnitOfWork : IDisposable
     {
-        IRepository<T> GetRepository<T>() where T : class, IHasId;
+        IRepository<T> GetRepository<T>() where T : class;
 
         void Commit();
     }

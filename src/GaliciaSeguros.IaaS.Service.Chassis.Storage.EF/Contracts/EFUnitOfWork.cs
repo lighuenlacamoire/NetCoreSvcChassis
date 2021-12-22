@@ -16,7 +16,7 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
             dbContext = serviceScope.ServiceProvider.GetRequiredService<DbContext>();
         }
 
-        public IRepository<TEntity> GetRepository<TEntity>() where TEntity : class, IHasId
+        public IRepository<TEntity> GetRepository<TEntity>() where TEntity : class
         {
             return serviceScope.ServiceProvider.GetService<IRepository<TEntity>>();
         }

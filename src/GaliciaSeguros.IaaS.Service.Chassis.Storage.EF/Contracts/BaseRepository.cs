@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 {
     public class BaseRepository<TEntity> : IRepository<TEntity>
-        where TEntity : class, IHasId
+        where TEntity : class
     {
         protected readonly DbContext dbContext;
         protected readonly DbSet<TEntity> DbSet;
@@ -26,8 +26,9 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 
         public void Delete(TEntity item)
         {
-            var existingEntity = dbContext.Set<TEntity>().FirstOrDefault(t => t.Id == item.Id);
-            dbContext.Set<TEntity>().Remove(existingEntity);
+            // var existingEntity = dbContext.Set<TEntity>().FirstOrDefault(t => t.Id == item.Id);
+            DbSet.Remove(item);
+            // dbContext.Set<TEntity>().Remove(existingEntity);
         }
 
         public IEnumerable<TEntity> GetAll()

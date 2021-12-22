@@ -30,6 +30,7 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
             }
         }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
             dbContextOptionsBuilder.UseSqlServer(storageSettings.ConnectionString);

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Implementation
 {
-    public interface IRepository<TEntity> where TEntity : class, IHasId
+    public interface IRepository<TEntity> where TEntity : class
     {
         void Add(TEntity item);
 
