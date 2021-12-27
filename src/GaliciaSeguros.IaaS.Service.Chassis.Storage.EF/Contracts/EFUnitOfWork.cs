@@ -21,11 +21,15 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
             return serviceScope.ServiceProvider.GetService<IRepository<TEntity>>();
         }
 
-        public void Commit()
+        public int Commit()
         {
-            dbContext.SaveChanges();
+            return dbContext.SaveChanges();
         }
 
+        public Task<int> CommitAsync()
+        {
+            return dbContext.SaveChangesAsync();
+        }
         protected virtual void Dispose(bool disposing)
         {
             if (!disposedValue)

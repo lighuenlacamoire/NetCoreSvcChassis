@@ -10,6 +10,7 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Implementation
     {
         IRepository<T> GetRepository<T>() where T : class;
 
-        void Commit();
+        int Commit();
+        Task<int> CommitAsync();
     }
 }

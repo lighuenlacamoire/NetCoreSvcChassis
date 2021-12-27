@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\GaliciaSeguros.IaaS.Service.Chassis.API.csproj": {
-      "version": "1.0.8",
+      "version": "1.0.10",
       "restore": {
         "projectUniqueName": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\GaliciaSeguros.IaaS.Service.Chassis.API.csproj",
         "projectName": "GaliciaSeguros.IaaS.Service.Chassis",
@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -102,6 +105,9 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -179,6 +185,9 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -253,6 +262,9 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Storage\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -314,6 +326,9 @@
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "D:\\GIT\\OWNER\\NetCoreSvcChassis\\src\\GaliciaSeguros.IaaS.Service.Chassis.Swagger\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

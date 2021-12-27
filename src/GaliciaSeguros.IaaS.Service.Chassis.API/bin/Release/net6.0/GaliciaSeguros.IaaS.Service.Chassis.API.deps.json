@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.8": {
+      "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.10": {
         "dependencies": {
           "GaliciaSeguros.IaaS.Service.Chassis.Storage": "1.0.0",
           "GaliciaSeguros.IaaS.Service.Chassis.Storage.EF": "1.0.0",
@@ -634,7 +634,7 @@
     }
   },
   "libraries": {
-    "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.8": {
+    "GaliciaSeguros.IaaS.Service.Chassis.API/1.0.10": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
