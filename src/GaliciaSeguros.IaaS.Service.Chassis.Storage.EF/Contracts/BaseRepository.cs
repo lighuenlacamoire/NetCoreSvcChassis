@@ -8,32 +8,26 @@ using System.Threading.Tasks;
 
 namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 {
-    public class BaseRepository<TEntity> : IRepository<TEntity>
+    public class BaseRepository<TEntity, TContext> : IRepository<TEntity>
         where TEntity : class
+        where TContext : DbContext
     {
-        protected readonly DbContext _dbContext;
-        private DbSet<TEntity> _dbSet;
+        protected readonly TContext _dbContext;
+        protected readonly DbSet<TEntity> _dbSet;
 
-        protected DbSet<TEntity> DbSet
-        {
-            get => _dbSet ?? (_dbSet = _dbContext.Set<TEntity>());
-        }
-
-        public BaseRepository(DbContext context)
+        public BaseRepository(TContext context)
         {
             _dbContext = context;
+            _dbSet = _dbContext.Set<TEntity>();
         }
         public void Add(TEntity item)
         {
             _dbContext.Set<TEntity>().Add(item);
-            // DbSet.Add(item);
         }
 
         public void Delete(TEntity item)
         {
-            // var existingEntity = _dbContext.Set<TEntity>().FirstOrDefault(t => t.Id == item.Id);
-            DbSet.Remove(item);
-            // _dbContext.Set<TEntity>().Remove(existingEntity);
+            _dbSet.Remove(item);
         }
 
         public IEnumerable<TEntity> GetAll()
@@ -43,9 +37,6 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 
         public void Update(TEntity item)
         {
-            // var existingEntity = dataStorage.GetOne(item.Id);
-            // mapper.Map(item, existingEntity);
-
             _dbContext.Set<TEntity>().Attach(item);
             _dbContext.Entry(item).State = EntityState.Modified;
         }

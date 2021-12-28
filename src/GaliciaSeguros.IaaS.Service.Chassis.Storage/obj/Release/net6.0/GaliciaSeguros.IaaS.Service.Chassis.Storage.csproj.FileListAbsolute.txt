@@ -9,4 +9,3 @@ D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\o
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\ref\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll
 D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.pdb
-D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\obj\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.csproj.AssemblyReference.cache

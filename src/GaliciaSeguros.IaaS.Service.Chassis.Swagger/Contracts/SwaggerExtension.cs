@@ -66,7 +66,6 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Swagger.Contracts
         public static IApplicationBuilder UseCustomizedSwagger(
             this IApplicationBuilder app, IWebHostEnvironment env)
         {
-
                 app.UseSwagger();
                 app.UseSwaggerUI(options =>
                 {

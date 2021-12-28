@@ -23,10 +23,6 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.dll" />
-    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.dll" />
-    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Storage.Mongo.dll" />
-    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.Swagger\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.Swagger.dll" />
     <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.runtimeconfig.json" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.runtimeconfig.json" />
     <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.API.dll" />
     <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.API\appsettings.Development.json" target="content\appsettings.Development.json" />

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 {
-    public class EFStartup<TDbContext> : IStorageStartup
-        where TDbContext : DbContext
+    public class EFStartup<TContext> : IStorageStartup
+        where TContext : DbContext
     {
         
         public EFStartup()
@@ -21,14 +21,14 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 
         public void Configure(IServiceCollection services, StorageSettings storageSettings)
         {
-            services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
+            // services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<,>));
             #region Unit Of Work
             services.AddTransient<IEFUnitOfWork, EFUnitOfWork>();
             #endregion
             
             #region DbContext
-            services.AddScoped<DbContext, TDbContext>();
-            services.AddDbContext<TDbContext>(options =>
+            services.AddScoped<DbContext, TContext>();
+            services.AddDbContext<TContext>(options =>
             {
                 options.UseSqlServer(storageSettings.ConnectionString);
             });

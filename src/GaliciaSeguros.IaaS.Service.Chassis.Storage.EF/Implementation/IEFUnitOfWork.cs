@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Implementation
     public interface IEFUnitOfWork : IDisposable
     {
         IRepository<T> GetRepository<T>() where T : class;
+        DbContext dbContext { get; }
 
         int Commit();
         Task<int> CommitAsync();

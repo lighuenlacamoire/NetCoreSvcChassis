@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<PackageVersion>1.0.10</PackageVersion>
-		<Version>1.0.10</Version>
+		<PackageVersion>1.0.14</PackageVersion>
+		<Version>1.0.14</Version>
 		<PackageId>GaliciaSeguros.IaaS.Service.Chassis</PackageId>
 		<IsPackable>true</IsPackable>
 		<Title>Galicia Seguros Service Chassis</Title>

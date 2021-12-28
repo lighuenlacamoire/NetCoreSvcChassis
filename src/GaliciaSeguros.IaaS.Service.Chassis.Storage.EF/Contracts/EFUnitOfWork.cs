@@ -4,11 +4,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace GaliciaSeguros.IaaS.Service.Chassis.Storage.EF.Contracts
 {
-    internal class EFUnitOfWork : IEFUnitOfWork
+    public class EFUnitOfWork : IEFUnitOfWork
     {
         private readonly IServiceScope serviceScope;
-        private readonly DbContext dbContext;
         private bool disposedValue;
+        public DbContext dbContext { get; private set; }
 
         public EFUnitOfWork(IServiceProvider serviceProvider)
         {

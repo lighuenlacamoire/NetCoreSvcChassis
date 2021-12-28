@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GaliciaSeguros.IaaS.Service.Chassis.HealthCheck</id>
+    <version>1.0.9</version>
+    <title>Galicia Seguros CCC Health Check</title>
+    <authors>Galicia Seguros</authors>
+    <description>CCC de Health Check para los microservicios de Galicia Seguros</description>
+    <copyright>Copyright © 2022</copyright>
+    <tags>dotnet-new templates contoso</tags>
+    <repository type="git" url="https://github.com/lighuenlacamoire/NetCoreSvcChassis" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AspNetCore.HealthChecks.SqlServer" version="5.0.3" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI.Client" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.FeatureManagement" version="2.4.0" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck.runtimeconfig.json" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck.runtimeconfig.json" />
+    <file src="D:\GIT\OWNER\NetCoreSvcChassis\src\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck\bin\Release\net6.0\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck.dll" target="lib\net6.0\GaliciaSeguros.IaaS.Service.Chassis.HealthCheck.dll" />
+  </files>
+</package>
